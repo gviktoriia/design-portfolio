@@ -1,0 +1,1349 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Monoton&family=Montserrat:wght@600&display=swap');
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+ font-weight: inherit;
+ font-size: inherit;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header-container{
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.my-logo{
+  text-decoration: none;
+  color: #000;
+  text-align: left;
+  margin-right: 200px;
+  font-family: "Monoton";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.header-element{
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 75px;
+}
+
+.header-element:hover{
+  font-size: 36px;
+}
+
+
+.main-wrapper {
+  background-image: url('https://images.unsplash.com/photo-1512425406684-952ff74cb8d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=897&q=80');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-position: center;
+  background-attachment: fixed; /* !!! */
+}
+
+.main-page{
+  width: 100%;
+  height: 100%;
+}
+
+.main-page-main{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.active-page{
+  text-decoration: underline;
+}
+
+.active-page:hover{
+  font-size: 30px;
+}
+
+
+.main-page-content{
+  background-color: #261F1F80;
+  width: 890px;
+  height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  border-radius: 30px;
+}
+
+.main-text{
+  color: white;
+  font-family: "Monda";
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 0 0 0;
+}
+
+.item-list{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.first-row{
+  display: inline-block;
+  padding-top: 70px;
+  margin: 0 0 0 0;
+}
+
+.one{
+  padding-right: 140px;
+  padding-left: 167px;
+}
+
+.second-row{
+  display: inline-block;
+  padding-top: 30px;
+  margin: 0 0 0 0;
+}
+
+.two{
+  padding-left: 278px;
+  padding-right: 144px;
+}
+
+
+.order-btn{
+  background-color: #F6BD35;
+  border: none;
+  color: black;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 233px;
+  padding: 10px 20px;
+  gap: 10px;
+  height: 49px;
+}
+
+.order-btn:hover{
+  background-color: #fff;
+  width: 250px;
+  height: 52px;
+  font-size: 26px;
+}
+
+.order-btn:active{
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 2px 4px rgba(4, 4, 4, 0.3), inset 0 0 0 60px rgba(197, 195, 195, 0.45);
+}
+
+
+/*----------------------------------------------ABOUT----ME------------------------------------------*/
+
+
+.about-page-content{
+  background-color: #261F1F80;
+  width: 800px;
+  height: 80vh;
+  margin-left: 200px;
+  margin-top: 10%;
+  border-radius: 30px;
+}
+
+.name-text{
+  font-family: "Monda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 59px;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.job-text{
+  font-family: "Monda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.skills-chapter-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #F3BA39;
+  padding-top: 4%;
+}
+
+.edu-chapter-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #F3BA39;
+  padding-top: 5%; 
+}
+
+.skills-list{
+  color: #fff;
+  list-style: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.skill-item{
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.skill-item:not(:last-child){
+  padding-right: 5%;
+}
+
+.uni-text{
+  color: #fff;
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.uni-desc{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+
+img{
+  margin-left: 74px;
+  margin-top: 23px;
+}
+
+.about-page-container{
+  display: flex;
+}
+
+.contact-item{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.first-contact-items{
+  margin-left: 253px;
+  margin-top: 145px;
+}
+
+.second-contact-items{
+  margin-left: 718px;
+  margin-top: -68px;
+}
+
+.icon{
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.first-container-icons{
+  margin-left: 200px;
+  margin-top: -74px;
+}
+
+.second-container-icons{
+  margin-left: 667px;
+  margin-top: -74px;
+}
+
+.link-underscore{
+  color: #FFFFFF;
+}
+
+
+
+/*---------------------------------------PORTFOLIO--------------------------------------*/
+
+
+.portfolio-page-container{
+  margin-top: 94px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+}
+
+
+.portfolio-page-content{
+  background-color: #261F1F80;
+  width: 460px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.portfolio-page-content:not(:last-child){
+  margin-right: 70px;
+}
+
+.portfolio-page-container2{
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+}
+
+.portfolio-works-title{
+  font-family: 'Monda';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  padding-top: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 1920px){
+  .header-container{
+    text-align: center;
+
+  }
+
+  .main-page-content{
+    margin-top: 100px;
+  }
+
+}
+
+@media (max-width: 1870px){
+  
+  .header-container{
+    text-align: center;
+  }
+
+  .main-page-content{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 1771px){
+  .header-container{
+    text-align: center;
+  }
+
+
+  .main-wrapper {
+    background-size: cover;
+  }
+
+  .main-page-content{
+    margin-top: 80px;
+    height: 540px;
+  }
+
+  .about-page-content{
+    width: 760px;
+  }
+
+  img{
+    margin-left: 60px;
+    margin-top: 23px;
+  }
+  
+}
+
+@media (max-width: 1705px){
+  img{
+    margin-left: 40px;
+  }
+  
+  .about-page-content{
+    width: 700px;
+
+  }
+}
+
+@media (max-width: 1630px){
+  img{
+    margin-left: 25px;
+  }
+  
+  .about-page-content{
+    width: 650px;
+  }
+
+  .second-contact-items{
+    margin-left: 667px;
+    margin-top: -68px;
+  }
+
+  .second-container-icons{
+    margin-left: 620px;
+    margin-top: -74px;
+  }
+
+}
+
+
+@media (max-width: 1570px){
+  img{
+    margin-left: 20px;
+  }
+  
+  .about-page-content{
+    width: 580px;
+    margin-left: 100px;
+    
+  }
+
+  .first-container-icons{
+    margin-left: 100px;
+    margin-top: -74px;
+  }
+
+  .first-contact-items{
+    margin-left: 153px;
+    margin-top: 145px;
+  }
+
+  .second-contact-items{
+    margin-left: 557px;
+    margin-top: -68px;
+  }
+
+  .second-container-icons{
+    margin-left: 510px;
+    margin-top: -74px;
+  }
+}
+
+@media (max-width: 1442px){
+  
+  .first-contact-items{
+    margin-left: 153px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 153px;
+    margin-top: 0px;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 100px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 100px;
+    margin-top: -74px;
+  }
+}
+
+@media (max-width: 1390px){
+
+  img{
+    margin-left: 10px;
+    max-width: 670px;
+    margin-top: 40px;
+  }
+  
+  .about-page-content{
+    width: 500px;
+    margin-left: 100px;
+    
+  }
+  
+  .name-text{
+    padding-top: 40px;
+  }
+
+  .first-contact-items{
+    margin-left: 153px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 153px;
+    margin-top: 0px;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 100px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 100px;
+    margin-top: -74px;
+  }
+}
+
+
+
+@media (max-width: 1291px){
+  
+  .my-logo{
+    margin-right: 140px;
+  }
+  
+  .header-element{
+    margin-right: 50px;
+  }
+
+  .main-page-content{
+    margin-top: 70px;
+  }
+
+  img{
+    max-width: 560px;
+    margin-top: 194px;
+  }
+}
+
+
+@media (max-width: 1181px){
+  
+  .my-logo{
+    margin-right: 100px;
+  }
+  
+  .header-element{
+    margin-right: 40px;
+  }
+
+  .about-page-content{
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+
+  img{
+    max-width: 500px;
+    margin-top: 277px;
+  }
+
+}
+
+@media (max-width: 1141px){
+  
+  .my-logo{
+    margin-right: 80px;
+  }
+  
+  .header-element{
+    margin-right: 40px;
+  }
+
+  .main-page-content{
+    margin-top: 60px;
+  }
+
+  .about-page-content{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    max-width: 440px;
+  }
+
+  img{
+    max-width: 450px;
+    margin-top: 345px;
+  }
+}
+
+
+
+@media (max-width: 1031px){
+  
+  .my-logo{
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .header-element{
+    font-size: 32px;
+  }
+
+  .name-text{
+    padding-top: 30px;
+  }
+  
+  .about-page-content{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    height: 680px;
+  }
+
+  img{
+    max-width: 400px;
+    margin-top: 415px;
+  }
+
+  .first-contact-items{
+    margin-left: 153px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 153px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 100px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 100px;
+    margin-top: -74px;
+    margin-bottom: 0%;
+  }
+  
+}
+
+@media (max-width: 987px){
+
+  .header-element{
+    margin-left: 40px;
+    white-space: nowrap;
+  }
+
+  .main-page-content{
+    width: 750px;
+    height: 582px;
+    margin-top: 90px;
+  }
+
+  .item-list{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .first-row{
+    text-align: center;
+  }
+
+  .second-row{
+    text-align: center;
+  }
+
+  .one{
+    padding-right: 50px;
+  }
+
+  .two{
+    padding-right: 50px;
+  }
+
+  .name-text{
+    padding-top: 30px;
+  }
+  
+  .about-page-content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 400px;
+  }
+
+  img{
+    max-width: 360px;
+    margin-top: 472px;
+    margin-left: -10px;
+  }
+
+  .first-contact-items{
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 100px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 100px;
+    margin-top: -74px;
+    margin-bottom: 0%;
+  }
+
+}
+
+@media (max-width: 860px){
+  .name-text{
+    padding-top: 25px;
+  }
+  
+  .about-page-content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 400px;
+  }
+
+  img{
+    max-width: 320px;
+    margin-top: 528px;
+    margin-left: -30px;
+  }
+
+  .first-contact-items{
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 130px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 80px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 80px;
+    margin-top: -74px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 810px){
+
+  .main-page-content{
+    width: 620px;
+    height: 660px;
+    margin-top: 60px;
+  }
+
+  .main-text{
+    font-size: 40px;
+    padding-top: 50px;
+    width: 450px;
+    padding-left: 80px;
+  }
+
+  .item-list{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+
+  .one{
+    padding-left: 95px;
+    padding-right: 30px;
+  }
+
+  .two{
+    padding-left: 95px;
+    padding-right: 30px;
+  }
+
+  .name-text{
+    padding-top: 25px;
+  }
+  
+  .about-page-content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 400px;
+  }
+
+  img{
+    max-width: 320px;
+    margin-top: 528px;
+    margin-left: -90px;
+  }
+
+  .first-contact-items{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 60px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 60px;
+    margin-top: -74px;
+    margin-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 731px){
+
+  .main-page-content{
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+  }
+
+  .main-text{
+    font-size: 40px;
+    padding-top: 50px;
+    width: 450px;
+    padding-left: 20px;
+  }
+
+  .item-list{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .one{
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+
+  .two{
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+
+  .order-btn{
+    margin-top: 90px;
+  }
+
+  .first-row{
+    padding-top: 80px;
+  }
+
+    .name-text{
+    padding-top: 20px;
+  }
+  
+  .about-page-content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    height: 650px;
+    width: 600px;
+    margin-left: 100px;
+  }
+
+  img{
+    max-width: 180px;
+    margin-top: 720px;
+    margin-left: -150px;
+  }
+
+  .first-contact-items{
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .contact-item{
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .icon{
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .first-container-icons{
+    margin-left: 80px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 80px;
+    margin-top: -74px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 543px){
+  
+  .main-page-content{
+    width: 400px;
+    height: 660px;
+    margin-top: 50px;
+  }
+
+  .main-text{
+    font-size: 32px;
+    padding-top: 40px;
+    width: 350px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .item-list{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .one{
+    padding-left: 140px;
+    padding-right: 0px;
+  }
+
+  .one2{
+    padding-left: 100px;
+
+  }
+
+  .two{
+    padding-left: 120px;
+    padding-right: 0px;
+  }
+
+  .two2{
+    padding-left: 125px;
+  }
+
+  .order-btn{
+    margin-top: 90px;
+  }
+
+  .first-row{
+    padding-top: 20px;
+  }
+
+  .header-element{
+    white-space: nowrap;
+  }
+
+  .my-logo{
+    padding-left: 80px;
+  }
+
+  
+  .name-text{
+    padding-top: 20px;
+  }
+  
+  .about-page-content{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 400px;
+    height: 630px;
+    width: 600px;
+    margin-left: 50px;
+  }
+
+  img{
+    max-width: 200px;
+    margin-top: 693px;
+    margin-left: -220px;
+  }
+
+  .first-contact-items{
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+
+  .second-contact-items{
+    margin-left: 90px;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .first-container-icons{
+    margin-left: 50px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: 50px;
+    margin-top: -74px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 480px){
+
+  .about-page-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-page-content{
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  img{
+    max-width: 160px;
+    margin-top: 750px;
+    margin-left: -170px;
+  }
+
+  .contact-item{
+    font-size: 16px;
+    margin-left: -200px;
+  }
+
+  .first-container-icons{
+    margin-left: -20px;
+    margin-top: -72px;
+  }
+
+  .second-container-icons{
+    margin-left: -20px;
+    margin-top: -74px;
+    margin-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 412px){
+
+  .header-container{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .header-element{
+    text-align: center;
+  }
+  
+  .main-page-content{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+  }
+
+  .main-text{
+    font-size: 30px;
+    padding-top: 30px;
+    width: 250px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .item-list{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .one{
+    padding-left: 90px;
+    padding-right: 0px;
+  }
+
+  .one2{
+    padding-left: 50px;
+
+  }
+
+  .two{
+    padding-left: 74px;
+    padding-right: 0px;
+  }
+
+  .two2{
+    padding-left: 78px;
+  }
+
+  .order-btn{
+    margin-top: 40px;
+  }
+
+  .my-logo{
+    padding-left: 80px;
+  }
+
+  .about-page-container{
+    text-align: center;
+    display: flex;
+  }
+
+  .name-text{
+    font-size: 30px;
+  }
+
+  .skills-chapter-text{
+    font-size: 26px;
+  }
+
+  .skill-item{
+    font-size: 22px;
+  }
+
+  .uni-desc{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 18px;
+  }
+
+  .uni-text{
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .edu-chapter-text{
+    font-size: 26px;
+
+  }
+
+  .job-text{
+    font-size: 26px;
+  }
+
+  .about-page-content{
+    width: 360px;
+    margin-top: 40px;
+  }
+
+  img{
+    max-width: 200px;
+    margin-top: 693px;
+    margin-left: -220px;
+    visibility: hidden;
+  }
+
+  .first-contact-items{
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 160px;
+
+  }
+
+  .second-contact-items{
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 160px;
+    justify-content: center;
+
+  }
+  .contact-item{
+    justify-content: center;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 390px){
+  .about-page-content{
+    width: 300px;
+    height: 700px;
+  }
+
+}
+
+@media (max-width: 310px){
+  .main-page-content{
+    width: 220px;
+    margin-top: 30px;
+    height: 600px;
+  }
+
+  .main-text{
+    font-size: 26px;
+    width: 190px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .item-list{
+    font-size: 16px;
+  }
+
+  .order-btn{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 120px;
+    padding: 10px 10px;
+    gap: 10px;
+    height: 64px;
+  }
+
+  .one{
+    padding-left: 60px;
+    padding-right: 0px;
+  }
+
+  .one2{
+    padding-left: 20px;
+
+  }
+
+  .two{
+    padding-left: 44px;
+    padding-right: 0px;
+  }
+
+  .two2{
+    padding-left: 48px;
+  }
+
+
+  .about-page-content{
+    width: 230px;
+    height: 650px;
+    margin-top: 20px;
+  }
+
+  .job-text{
+    font-size: 18px;
+  }
+
+  .name-text{
+    font-size: 20px;
+  }
+
+  .skills-chapter-text{
+    font-size: 18px;
+  }
+
+  .edu-chapter-text{
+    font-size: 18px;
+  }
+
+  .uni-text{
+    font-size: 16px;
+  }
+  .uni-desc{
+    font-size: 12px;
+  }
+
+  .skill-item{
+    font-size: 16px;
+  }
+
+  .first-contact-items{
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 160px;
+
+  }
+
+  .contact-item{
+    font-size: 12px;
+    margin-top: 10%;
+  }
+}
+
+ 
+@media (max-height: 800px){
+  .main-page-content{
+    margin-top: 60px;
+  }
+
+  .header-container{
+    padding-top: 40px;
+  }
+
+}
+
+
+
+
+
