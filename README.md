@@ -1,7 +1,6 @@
 # design-portfolio
 
 This is a primitive site-portfolio.  
-
 I've created it for training of my html&css&js skills.  
 
 ![image](https://github.com/gviktoriia/design-portfolio/assets/75883183/fb0f3bac-e5cd-4a48-94cd-b2a5f276ad81)
